@@ -1,0 +1,9 @@
+{
+    "url": "https://client-two-gules-70.vercel.app/",
+    "endpoints": {
+        "register": "/register",
+        "login": "/login",
+        "blogs": "/blogs",
+        "blogsDetails": "/blogs/:blogId"
+    }
+}
