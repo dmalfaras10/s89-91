@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_BLOG_API,
+    baseURL: "https://s89-91-2.onrender.com/",
 });
 
 api.interceptors.request.use((config) => {
